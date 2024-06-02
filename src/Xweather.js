@@ -43,7 +43,7 @@ function Xweather() {
         placeholder="Enter City Name"
       />
       <button onClick={fetchData}>Search</button>
-      {loading && <p>Loading Data...</p>}
+      {loading && <p>Loading data...</p>}
       {!loading && weatherData && (
         <div className="weather-cards">
           <WeatherCard
