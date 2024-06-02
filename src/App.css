@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+/* Weather App Css */
+
+button{
+   
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+}
+.weather-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.weather-card{
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar {
+  margin: 20px;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
